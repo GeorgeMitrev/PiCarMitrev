@@ -5,7 +5,8 @@ import Adafruit_PCA9685 as PWM_HAT
 from Adafruit_GPIO.GPIO import RPiGPIOAdapter as Adafruit_GPIO_Adapter
 import Adafruit_MCP3008
 
-from picar.CarProcesses import ps_image_stream, ps_ultrasonic_dist
+from picar.CarProcesses import ps_ultrasonic_dist
+from picar.mitCamera import ps_image_stream
 from picar.ParallelTask import ParallelTask
 
 import pkg_resources
