@@ -522,7 +522,7 @@ class PiCar:
                 "FATAL: get_image can only be called when PiCar is run in threaded mode"
             )
 
-        return self._camera_process.get_result()[0]
+        return self._camera_process.get()
 
     def __repr__(self):
         """
